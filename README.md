@@ -1,4 +1,4 @@
-# Physics-Guided Spectral Decomposition for Acoustic Analysis of Chenda
+# Interpretable Inverse Acoustic Modeling of Percussion via Physics-Guided Spectral Decomposition
 ## Code Repository
 
 Official code for the paper:  
