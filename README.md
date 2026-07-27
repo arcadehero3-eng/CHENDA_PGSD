@@ -1,5 +1,5 @@
 # Physics-Guided Spectral Decomposition for Acoustic Analysis of Chenda
-## ISMIR 2026 — Code Repository
+## Code Repository
 
 Official code for the paper:  
 **"Physics-Guided Spectral Decomposition for Acoustic Analysis of Chenda and Shell Geometry Variants"**
