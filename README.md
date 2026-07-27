@@ -134,7 +134,7 @@ All five cause R² < 0.01 in otherwise correct physics models:
   booktitle = {Proc.\ 27th Int.\ Society for Music Information Retrieval
                Conf.\ (ISMIR)},
   year      = {2026},
-  note      = {Under review --- anonymous submission}
+  note      = {Accepted --- anonymous submission}
 }
 ```
 
