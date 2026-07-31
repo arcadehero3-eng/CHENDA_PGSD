@@ -2,7 +2,7 @@
 ## Code Repository
 
 Official code for the paper:  
-**"Physics-Guided Spectral Decomposition for Acoustic Analysis of Chenda and Shell Geometry Variants"**
+**"Interpretable Inverse Acoustic Modeling of Percussion via Physics-Guided Spectral Decomposition"**
 
 ---
 
