@@ -129,8 +129,7 @@ All five cause R² < 0.01 in otherwise correct physics models:
 
 ```bibtex
 @inproceedings{chenda_pgsd_ismir2026,
-  title     = {Physics-Guided Spectral Decomposition for Acoustic Analysis
-               of {Chenda} and Shell Geometry Variants},
+  title     = {Interpretable Inverse Acoustic Modeling of Percussion via Physics-Guided Spectral Decomposition},
   booktitle = {Proc.\ 27th Int.\ Society for Music Information Retrieval
                Conf.\ (ISMIR)},
   year      = {2026},
