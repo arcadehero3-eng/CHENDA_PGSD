@@ -6,7 +6,7 @@
 ## Repository Layout
 
 ```
-chenda-pgsd-ismir2026/
+chenda-pgsd/
 ├── src/
 │   ├── chenda_spectral.py          Fourier-Chebyshev eigensolver + density models
 │   ├── chenda_pgsd_v3.py           PGSD v3 framework (calibrated to real recordings)
@@ -19,7 +19,7 @@ chenda-pgsd-ismir2026/
 │   ├── main.tex                    LaTeX source
 │   ├── mybib.bib                   Bibliography
 │   ├── section_real_recordings.tex Section 5 (real recordings)
-│   └── chenda_pgsd_ISMIR2026.pdf   Compiled PDF
+│   └── chenda_pgsd.pdf   Compiled PDF
 │
 ├── figures/
 │   ├── eigenmodes_cylinder.png     Figure 3
@@ -67,8 +67,8 @@ tension (T̂ ≈ 3235–7591 N/m across beats), strike position, and shell shape
 
 ```bash
 # 1. Clone
-git clone https://github.com/YOUR_USERNAME/chenda-pgsd-ismir2026.git
-cd chenda-pgsd-ismir2026
+git clone https://github.com/arcadehero3/CHENDA_PGSD.git
+cd CHENDA_PGSD
 
 # 2. Install
 conda create -n chenda python=3.10
