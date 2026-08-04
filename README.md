@@ -1,8 +1,5 @@
-# Interpretable Inverse Acoustic Modeling of Percussion via Physics-Guided Spectral Decomposition
-## Code Repository
-
-Official code for the paper:  
-**"Interpretable Inverse Acoustic Modeling of Percussion via Physics-Guided Spectral Decomposition"**
+# CHENDA PGSD
+## Code 
 
 ---
 
@@ -125,17 +122,7 @@ All five cause R² < 0.01 in otherwise correct physics models:
 
 ---
 
-## Citation
 
-```bibtex
-@inproceedings{chenda_pgsd_ismir2026,
-  title     = {Interpretable Inverse Acoustic Modeling of Percussion via Physics-Guided Spectral Decomposition},
-  booktitle = {Proc.\ 27th Int.\ Society for Music Information Retrieval
-               Conf.\ (ISMIR)},
-  year      = {2026},
-  note      = {Accepted --- anonymous submission}
-}
-```
 
 ---
 
