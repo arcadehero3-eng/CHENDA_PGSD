@@ -42,7 +42,7 @@ chenda-pgsd/
 ## Dataset
 
 **50 real Chenda beats** (`beat_1.wav` … `beat_50.wav`)  
-Kaggle dataset: `kevinbenty/beats-chenda`
+Kaggle dataset: `beats-chenda`
 
 Place the files in `audio/real_recordings/` before running the notebook locally,  
 or keep the Kaggle paths unchanged for Kaggle execution.
@@ -88,8 +88,8 @@ jupyter notebook notebooks/chenda_pgsd_analysis.ipynb
 
 ## Quick Start — Kaggle
 
-1. Add dataset `kevinbenty/beats-chenda` (the 50 recordings)
-2. Add dataset `kevinbenty/privatechenda` (the two `.py` model files)
+1. Add dataset `beats-chenda` (the 50 recordings)
+2. Add dataset `privatechenda` (the two `.py` model files)
 3. Open `notebooks/chenda_pgsd_analysis.ipynb` — no path changes needed
 4. Run All
 
