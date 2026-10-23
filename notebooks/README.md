@@ -6,11 +6,23 @@
 | `real_recordings_analysis.ipynb` | per-strike analysis of the raw centre / edge / hand strikes |
 | `recording_inspector.ipynb` | inspect a single recording: spectrum, decay, fitted modes |
 | `fft_synthesis_baseline.ipynb` | FFT-based synthesis baseline |
-| `cnn_baseline.ipynb` | supervised CNN baseline on synthetic strikes |
+| `cnn_baseline.ipynb` | supervised CNN baseline on synthetic strikes (needs `pip install torch`) |
 
-The notebooks were run on Kaggle. To run them locally, change the path cell at the top:
+## Running
 
-- audio: `audio/real_recordings/` in this repository
-- model code: `src/chenda_pgsd_v3.py` and `src/chenda_spectral.py`
+**Locally:** start Jupyter from the repository and open a notebook from this folder. No path edits are needed.
+The first cell finds the repository, loads the model from `src/` and reads audio from `audio/`.
+Outputs go to `outputs/<notebook name>/`.
 
-For real recordings, call `set_experiment_mode("real")` and pass `f1_min=150.0, f1_max=280.0` to `pgsd_refine`.
+```bash
+pip install -r requirements.txt
+jupyter notebook notebooks/
+```
+
+**On Kaggle:** clone the repository into the working directory first, then run all cells:
+
+```python
+!git clone https://github.com/arcadehero3-eng/CHENDA_PGSD.git /kaggle/working/CHENDA_PGSD
+```
+
+If the repository lives somewhere else, set the `CHENDA_REPO` environment variable to its path.
