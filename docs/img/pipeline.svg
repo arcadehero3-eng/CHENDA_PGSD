@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 330" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="960" height="330" rx="14" fill="#ffffff"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#57606a"/>
+    </marker>
+  </defs>
+
+  <!-- row labels -->
+  <text x="24" y="44" font-size="13" font-weight="700" fill="#0969da" letter-spacing="1">FORWARD · SYNTHESIS</text>
+  <text x="24" y="304" font-size="13" font-weight="700" fill="#bf3989" letter-spacing="1">INVERSE · PGSD (TRAINING-FREE)</text>
+
+  <!-- forward row -->
+  <g font-size="14" fill="#1f2328">
+    <rect x="24" y="60" width="190" height="78" rx="10" fill="#ddf4ff" stroke="#0969da"/>
+    <text x="119" y="90" text-anchor="middle" font-weight="700">Physical parameters</text>
+    <text x="119" y="112" text-anchor="middle" font-size="12.5" fill="#57606a">tension T · density ρ(r,θ)</text>
+    <text x="119" y="128" text-anchor="middle" font-size="12.5" fill="#57606a">strike position (rₛ, θₛ)</text>
+
+    <rect x="262" y="60" width="200" height="78" rx="10" fill="#ddf4ff" stroke="#0969da"/>
+    <text x="362" y="90" text-anchor="middle" font-weight="700">Eigensolver</text>
+    <text x="362" y="112" text-anchor="middle" font-size="12.5" fill="#57606a">Fourier–Chebyshev</text>
+    <text x="362" y="128" text-anchor="middle" font-size="12.5" fill="#57606a">LΨ = −λ²BΨ</text>
+
+    <rect x="510" y="60" width="200" height="78" rx="10" fill="#ddf4ff" stroke="#0969da"/>
+    <text x="610" y="90" text-anchor="middle" font-weight="700">Modal synthesis</text>
+    <text x="610" y="112" text-anchor="middle" font-size="12.5" fill="#57606a">Σ Aₙ e^(−αₙt) sin(2πfₙt)</text>
+    <text x="610" y="128" text-anchor="middle" font-size="12.5" fill="#57606a">Rayleigh damping α(ω)</text>
+  </g>
+
+  <!-- audio node -->
+  <rect x="770" y="118" width="166" height="92" rx="46" fill="#fff8c5" stroke="#9a6700"/>
+  <text x="853" y="158" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2328">Audio</text>
+  <text x="853" y="180" text-anchor="middle" font-size="12.5" fill="#57606a">synthetic or real</text>
+
+  <!-- inverse row -->
+  <g font-size="14" fill="#1f2328">
+    <rect x="510" y="192" width="200" height="78" rx="10" fill="#ffeff7" stroke="#bf3989"/>
+    <text x="610" y="222" text-anchor="middle" font-weight="700">Ridge decomposition</text>
+    <text x="610" y="244" text-anchor="middle" font-size="12.5" fill="#57606a">ĉ = (ΦᵀΦ + λI)⁻¹Φᵀx</text>
+    <text x="610" y="260" text-anchor="middle" font-size="12.5" fill="#57606a">closed form</text>
+
+    <rect x="262" y="192" width="200" height="78" rx="10" fill="#ffeff7" stroke="#bf3989"/>
+    <text x="362" y="222" text-anchor="middle" font-weight="700">Frequency refinement</text>
+    <text x="362" y="244" text-anchor="middle" font-size="12.5" fill="#57606a">residual-peak search</text>
+    <text x="362" y="260" text-anchor="middle" font-size="12.5" fill="#57606a">±32 Hz, lr = 0.25</text>
+
+    <rect x="24" y="192" width="190" height="78" rx="10" fill="#ffeff7" stroke="#bf3989"/>
+    <text x="119" y="222" text-anchor="middle" font-weight="700">Recovered physics</text>
+    <text x="119" y="244" text-anchor="middle" font-size="12.5" fill="#57606a">tension · strike radius</text>
+    <text x="119" y="260" text-anchor="middle" font-size="12.5" fill="#57606a">shell shape</text>
+  </g>
+
+  <!-- arrows -->
+  <g stroke="#57606a" stroke-width="2" fill="none" marker-end="url(#a)">
+    <path d="M214,99 H258"/>
+    <path d="M462,99 H506"/>
+    <path d="M710,99 C760,99 790,105 820,120"/>
+    <path d="M820,208 C790,225 760,231 714,231"/>
+    <path d="M510,231 H466"/>
+    <path d="M262,231 H218"/>
+  </g>
+  <path d="M362,138 V188" stroke="#8c959f" stroke-width="1.5" stroke-dasharray="5 4" fill="none" marker-end="url(#a)"/>
+  <text x="372" y="168" font-size="12" fill="#57606a">shared modal basis Φ</text>
+</svg>

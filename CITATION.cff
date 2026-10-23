@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the ISMIR 2026 paper."
+title: "CHENDA_PGSD: Physics-Guided Spectral Decomposition for Chenda percussion"
+repository-code: "https://github.com/arcadehero3-eng/CHENDA_PGSD"
+license: MIT
+authors:
+  - family-names: Rajan
+    given-names: Rajeev
+  - family-names: Benty
+    given-names: Kevin
+  - family-names: Palliparambil
+    given-names: Athul Joe Joseph
+preferred-citation:
+  type: conference-paper
+  title: "Interpretable Inverse Acoustic Modeling of Percussion via Physics-Guided Spectral Decomposition"
+  authors:
+    - family-names: Rajan
+      given-names: Rajeev
+    - family-names: Benty
+      given-names: Kevin
+    - family-names: Palliparambil
+      given-names: Athul Joe Joseph
+  collection-title: "Proceedings of the 27th International Society for Music Information Retrieval Conference (ISMIR)"
+  conference:
+    name: "ISMIR 2026"
+    city: "Abu Dhabi"
+    country: "AE"
+  year: 2026
